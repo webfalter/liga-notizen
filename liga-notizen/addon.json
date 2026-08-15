@@ -1,6 +1,6 @@
 {
     "name": "liga-notizen",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "admin",
     "description": {
         "de": "Beispiel-Addon: Notizen pro Liga anlegen, bearbeiten und löschen. Zeigt das Addon-System in Aktion.",

@@ -1,6 +1,6 @@
 {
     "name": "liga-notizen",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "type": "admin",
     "description": {
         "de": "Beispiel-Addon: Notizen pro Liga anlegen, bearbeiten und löschen. Zeigt das Addon-System in Aktion.",
@@ -8,7 +8,7 @@
     },
     "author": "Torsten Hofmann",
     "license": "GPL-3.0-only",
-    "homepage": "https://github.com/lmonext/addon-liga-notizen",
+    "homepage": "https://github.com/webfalter/liga-notizen/tree/main/liga-notizen",
     "icon": "📝",
     "min_core_version": "1.4.0",
     "dependencies": [],

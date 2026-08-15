@@ -1,0 +1,30 @@
+{
+    "name": "liga-notizen",
+    "version": "1.0.0",
+    "type": "admin",
+    "description": {
+        "de": "Beispiel-Addon: Notizen pro Liga anlegen, bearbeiten und löschen. Zeigt das Addon-System in Aktion.",
+        "en": "Example add-on: Create, edit and delete notes per league. Demonstrates the addon system in action."
+    },
+    "author": "Torsten Hofmann",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/lmonext/addon-liga-notizen",
+    "icon": "📝",
+    "min_core_version": "1.4.0",
+    "dependencies": [],
+    "admin_handlers": ["handler_notizen.php"],
+    "admin_views": {
+        "notizen": "view_notizen.php"
+    },
+    "admin_nav": [
+        { "action": "notizen", "icon": "📝", "label_key": "nav_notizen", "position": 55 }
+    ],
+    "frontend_handlers": [],
+    "frontend_views": {},
+    "templates_dir": "",
+    "lang_dir": "lang/",
+    "db_tables": ["lmo_liga_notizen"],
+    "hooks": [
+        { "event": "liga.deleted", "handler": "notizenOnLigaDeleted", "priority": 10 }
+    ]
+}
